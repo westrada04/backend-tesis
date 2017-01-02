@@ -35,8 +35,12 @@ Route::post('/destroyrolintegrantes','RolIntegranteController@destroyRolintegran
 Route::resource('/rolintegrante','RolIntegranteController');
 
 Route::post('/cargar',function (\Illuminate\Http\Request $request){
-    $objeto = $request->input('solicitud');
 
-    return response()->json($objeto);
+    $respuesta = new stdClass();
+    $respuesta->solicitud = $request->input('solicitud');
+    $respuesta->descripcion = $request->input('descripcion');
+    $respuesta->file = $request->input('file');
+
+    return response()->json($respuesta);
 });
 
