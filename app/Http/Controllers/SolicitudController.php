@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Archivo;
+use App\Solicitud;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -43,12 +45,11 @@ class SolicitudController extends Controller
         if(isset($files)){
             foreach($files as $file){
                 $fileName = $file->getClientOriginalName();
-                $ruta='public/solicitudesFiles/'.$solicitud->id.'/'.$fileName;
-                $archivo=Archivo::create(['ruta'=>$ruta]);
-                $solicitud_id=$solicitud->id;
-                $archivo_id=$archivo->id;
-                $archivoSolicitud= ArchivosSolicitud::create(['solicitud_id'=>$solicitud_id,
-                    'archivo_id'=>$archivo_id]);
+                $ruta = 'public/solicitudesFiles/'.$solicitud->id.'/'.$fileName;
+                $archivo = Archivo::create(['ruta'=>$ruta]);
+                $solicitud_id = $solicitud->id;
+                $archivo_id = $archivo->id;
+                $archivoSolicitud = ArchivosSolicitud::create(['solicitud_id'=>$solicitud_id,'archivo_id'=>$archivo_id]);
 
                 $file->move($path, $fileName);
             }

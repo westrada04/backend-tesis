@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Solicitud extends Model
 {
     use SoftDeletes;
+
     protected $dates = ['deleted_at'];
 
     protected $fillable = [
@@ -28,7 +29,6 @@ class Solicitud extends Model
     {
         return $this->hasOne('App\EstadoSolicitud', 'id', 'estadosolicitud_id');
     }
-
 
     public function categoria()
     {

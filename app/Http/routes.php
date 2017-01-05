@@ -18,8 +18,11 @@ Route::get('/', function () {
 Route::post('/auth/login','AuthController@userAuth');
 
 Route::post('/destroyUsers','UserController@destroyUsers');
+
 Route::post('/validarEmail','UserController@validarEmail');
+
 Route::post('/validarEmailUser/{id}','UserController@validarEmailUser');
+
 Route::resource('/user','UserController');
 
 Route::resource('/administrador', 'AdministradorController');
@@ -27,7 +30,6 @@ Route::resource('/administrador', 'AdministradorController');
 Route::resource('/docente','DocenteController');
 
 Route::resource('/estudiante','EstudianteController');
-
 
 Route::resource('/compania','CompaniaController');
 
@@ -39,8 +41,7 @@ Route::post('/cargar',function (\Illuminate\Http\Request $request){
     $respuesta = new stdClass();
     $respuesta->solicitud = $request->input('solicitud');
     $respuesta->descripcion = $request->input('descripcion');
-    $respuesta->file = $request->input('file');
-
-    return response()->json($respuesta);
+    $respuesta->file = $request->file('file');
+     return response()->json($respuesta);
 });
 
