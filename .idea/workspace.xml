@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f844272-0252-4a0f-b3ca-4a4452f9d4b4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Compania.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Detalle_Factura.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Factura.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/CompaniaController.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tesis.iml" afterPath="$PROJECT_DIR$/.idea/tesis.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Archivo.php" afterPath="$PROJECT_DIR$/app/Archivo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Categoria.php" afterPath="$PROJECT_DIR$/app/Categoria.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SolicitudController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SolicitudController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Solicitud.php" afterPath="$PROJECT_DIR$/app/Solicitud.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_12_29_164450_create_categorias_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_12_29_164450_create_categorias_table.php" />
     </list>
     <ignored path="tesis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,33 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2017_01_03_155737_create_solicitudes_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_03_155737_create_solicitudes_table.php">
+      <file leaf-file-name="SolicitudController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SolicitudController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Categoria.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Categoria.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Archivo.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Archivo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="312">
+              <caret line="247" column="0" lean-forward="true" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
               <folding>
-                <element signature="e#23#62#0#PHP" expanded="true" />
+                <marker date="1483713981314" expanded="true" signature="404:1484" ph="select id,as... id" />
+                <marker date="1483713981314" expanded="true" signature="489:956" ph="SELECT solic... solicitud" />
+                <marker date="1483713981314" expanded="true" signature="976:1435" ph="SELECT solic... solicitud" />
+                <marker date="1483713981314" expanded="true" signature="3423:4499" ph="select id,as... id" />
+                <marker date="1483713981314" expanded="true" signature="3508:3975" ph="SELECT solic... solicitud" />
+                <marker date="1483713981314" expanded="true" signature="3995:4454" ph="SELECT solic... solicitud" />
+                <marker date="1483713981314" expanded="true" signature="7723:8870" ph="select id,as... id" />
+                <marker date="1483713981314" expanded="true" signature="7808:8307" ph="SELECT solic... solicitud" />
+                <marker date="1483713981314" expanded="true" signature="8327:8818" ph="SELECT solic... solicitud" />
               </folding>
             </state>
           </provider>
@@ -114,17 +95,20 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/CompaniaController.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/DocenteController.php" />
-        <option value="$PROJECT_DIR$/app/Categoria.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_12_29_162020_create_solicitudes_table.php" />
         <option value="$PROJECT_DIR$/app/EstadoSolicitud.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_12_29_165050_create_estadosolicitudes_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/SolicitudController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/app/Archivo.php" />
         <option value="$PROJECT_DIR$/app/Solicitud.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_01_03_155737_create_solicitudes_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_12_29_161956_create_archivos_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_12_29_164450_create_categorias_table.php" />
+        <option value="$PROJECT_DIR$/app/Archivo.php" />
+        <option value="$PROJECT_DIR$/app/Categoria.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ArchivoController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CategoriaController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/EstadoSolicitudController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SolicitudController.php" />
       </list>
     </option>
   </component>
@@ -163,7 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,7 +248,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,11 +350,12 @@
       <workItem from="1483384448193" duration="4859000" />
       <workItem from="1483449693103" duration="1514000" />
       <workItem from="1483458462863" duration="2093000" />
+      <workItem from="1483710081765" duration="3297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80117000" />
+    <option name="totallyTimeSpent" value="83414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -382,11 +367,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30600291" sideWeight="0.886931" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30527085" sideWeight="0.886931" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -446,27 +431,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/jwt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1741">
@@ -692,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="21" column="59" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="21" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,17 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SolicitudController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,22 +681,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Compania.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CompaniaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-521">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Compania.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CompaniaController.php" />
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdministradorController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="683">
@@ -767,16 +704,8 @@
         <state relative-caret-position="119">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#23#62#0#PHP" expanded="true" />
+            <element signature="e#23#62#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_03_155737_create_solicitudes_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,24 +720,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Categoria.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Archivo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#23#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Categoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_03_155737_create_solicitudes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EstadoSolicitudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-830">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <element signature="e#40#64#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoriaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-779">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArchivoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SolicitudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="247" column="0" lean-forward="true" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
+          <folding>
+            <marker date="1483713981314" expanded="true" signature="404:1484" ph="select id,as... id" />
+            <marker date="1483713981314" expanded="true" signature="489:956" ph="SELECT solic... solicitud" />
+            <marker date="1483713981314" expanded="true" signature="976:1435" ph="SELECT solic... solicitud" />
+            <marker date="1483713981314" expanded="true" signature="3423:4499" ph="select id,as... id" />
+            <marker date="1483713981314" expanded="true" signature="3508:3975" ph="SELECT solic... solicitud" />
+            <marker date="1483713981314" expanded="true" signature="3995:4454" ph="SELECT solic... solicitud" />
+            <marker date="1483713981314" expanded="true" signature="7723:8870" ph="select id,as... id" />
+            <marker date="1483713981314" expanded="true" signature="7808:8307" ph="SELECT solic... solicitud" />
+            <marker date="1483713981314" expanded="true" signature="8327:8818" ph="SELECT solic... solicitud" />
           </folding>
         </state>
       </provider>
