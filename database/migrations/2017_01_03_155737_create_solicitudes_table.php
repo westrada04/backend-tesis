@@ -20,8 +20,6 @@ class CreateSolicitudesTable extends Migration
             $table->integer('user_id')->unsigned();
             $table->integer('estadosolicitud_id')->unsigned();
             $table->integer('categoria_id')->unsigned();
-            $table->softDeletes();
-            $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users')
                 ->onUpdate('cascade')->onDelete('cascade');
@@ -31,6 +29,10 @@ class CreateSolicitudesTable extends Migration
 
             $table->foreign('categoria_id')->references('id')->on('categorias')
                 ->onUpdate('cascade')->onDelete('cascade');
+
+            $table->softDeletes();
+            $table->timestamps();
+
         });
     }
 

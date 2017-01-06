@@ -211,6 +211,7 @@ class SolicitudController extends Controller
     }
 
     public function solicitudStatus(Request $request){
+
         $solicitud=DB::select(
             DB::raw('select id,asunto, descripcion, fecha,  categoria, estado,usuario,rol from(
 			
@@ -231,8 +232,6 @@ class SolicitudController extends Controller
 						join docentes on docentes.usuario_id=usuario.id
 				)a where  a.deleted_at IS NULL and a.estado_id='.$request->estado_id).' order by id');
 
-
-
         if(isset($solicitud)){
 
             foreach($solicitud as $soli){
@@ -245,7 +244,6 @@ class SolicitudController extends Controller
                 if(!empty($sol)){
                     $soli->archivos=$sol;
                 }
-
             }
             return response()->json($solicitud);
         }else{

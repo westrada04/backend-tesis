@@ -34,10 +34,16 @@ Route::resource('/estudiante','EstudianteController');
 Route::resource('/compania','CompaniaController');
 
 Route::post('/destroyrolintegrantes','RolIntegranteController@destroyRolintegrantes');
+
 Route::resource('/rolintegrante','RolIntegranteController');
 
-Route::post('/cargar',function (\Illuminate\Http\Request $request){
+Route::resource('/categoria','CategoriaController');
 
+Route::resource('/estadosolicitud','EstadoSolicitudController');
+
+Route::resource('/solicitud','SolicitudController');
+
+Route::post('/cargar',function (\Illuminate\Http\Request $request){
     $respuesta = new stdClass();
     $respuesta->solicitud = $request->input('solicitud');
     $respuesta->descripcion = $request->input('descripcion');
