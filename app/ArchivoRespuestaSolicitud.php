@@ -13,11 +13,6 @@ class ArchivoRespuestaSolicitud extends Model
         'archivo_id'
     ];
 
-    public static function boot(){
-        parent::boot();
-        ArchivoRespuestaSolicitud::observe(new UserActionsObserver);
-    }
-
     public function respuestasolicitud()
     {
         return $this->hasOne('App\RespuestaSolicitud', 'id', 'respuestasolicitud_id');
